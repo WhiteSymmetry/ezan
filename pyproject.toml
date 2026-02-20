@@ -15,16 +15,20 @@ authors = [
 license = {text = "AGPL-3.0-or-later"}
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: AGPL-3.0-or-later License",
     "Operating System :: OS Independent",
 ]
-requires-python = ">=3.7"
+requires-python = ">=3.11"
 dependencies = [
     "astropy>=7.2.0",
     "pytz>=2025.2",
-    "requests>=2.32.5",
+    "requests>=2.32",
 ]
 
 [project.urls]
 Homepage = "https://github.com/WhiteSymmetry/ezan"
 Repository = "https://github.com/WhiteSymmetry/ezan.git"
+[dependency-groups]
+build = [
+    "setuptools (>=82.0.0,<83.0.0)",
+    "cython (>=3.2.4,<4.0.0)"
+]
