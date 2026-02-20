@@ -1,0 +1,33 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Kececi Layout
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file. / Eğer bu yazılımı
+  kullanıyorsanız, lütfen bu dosyadaki meta   verileri
+  kullanarak atıfta bulunun.
+type: software
+authors:
+  - given-names: Mehmet
+    family-names: Keçeci
+    email: bilginomi@yaani.com
+    orcid: 'https://orcid.org/0000-0001-9937-9839'
+identifiers:
+  - type: doi
+    value: 
+repository-code: 'https://github.com/WhiteSymmetry/ezan'
+url: 'https://github.com/WhiteSymmetry/ezan'
+repository: 'https://anaconda.org/bilgi/ezan'
+repository-artifact: 'https://pypi.org/project/ezan/'
+abstract: >-
+  Ezan - Namaz vakitleri ve kıble hesaplama modülü.
+keywords:
+  - ezan
+  - vakit
+  - adhan
+license: AGPL3.0-or-later
+commit: 'Revision: 12'
+version: 0.1.0
+date-released: '2026-02-20'

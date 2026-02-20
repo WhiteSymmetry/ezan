@@ -1,0 +1,50 @@
+##  `meta.yaml` (Conda paketi için)
+
+{% set name = "ezan" %}
+{% set version = "0.1.0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  path: .  # Derlemeyi bu meta.yaml dosyasının bulunduğu dizinden yap
+  url: 
+  blake2b-256: 
+
+build:
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
+
+requirements:
+  host:
+    - python >=3.7
+    - pip
+    - setuptools
+  run:
+    - python >=3.11
+    - astropy >=7.2.0
+    - pytz >=2025.2
+    - requests >=2.32.5
+
+test:
+  imports:
+    - ezan
+  requires:
+    - pip
+  commands:
+    - pip check
+
+about:
+  home: https://github.com/WhiteSymmetry/ezan
+  license: AGPL-3.0-or-later License
+  license_file: LICENSE
+  summary: Namaz vakitleri ve kıble hesaplama aracı
+  description: |
+    Ezan modülü, kullanıcının konumuna göre Diyanet ölçütlerine yakın
+    namaz vakitlerini ve kıble yönünü hesaplar.
+  dev_url: https://github.com/WhiteSymmetry/ezan
+
+extra:
+  recipe-maintainers:
+    - Mehmet Keçeci

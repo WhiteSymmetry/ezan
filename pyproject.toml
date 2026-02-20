@@ -1,0 +1,30 @@
+## `pyproject.toml`
+
+[build-system]
+requires = ["setuptools>=82.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ezan"
+version = "0.1.0"
+description = "Namaz vakitleri ve kıble hesaplama aracı"
+readme = "README.md"
+authors = [
+    {name = "Mehmet Keçeci", email = "mkececi@yaani.com"},
+]
+license = {text = "AGPL-3.0-or-later"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: AGPL-3.0-or-later License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "astropy>=7.2.0",
+    "pytz>=2025.2",
+    "requests>=2.32.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/WhiteSymmetry/ezan"
+Repository = "https://github.com/WhiteSymmetry/ezan.git"
