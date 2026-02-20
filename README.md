@@ -18,13 +18,13 @@ print_prayer_times(lat, lon, tz, date)
 from ezan import print_prayer_times
 import datetime
 
-# Kendi değerlerinizi girin
+### Kendi değerlerinizi girin
 lat = 41.0          # enlem (derece)
 lon = 29.0          # boylam (derece)
 tz = 'Europe/Istanbul'   # zaman dilimi (Europe/Istanbul, Asia/Damascus vb.)
 tarih = datetime.date(2026, 2, 20)   # tarih: yıl, ay, gün
 
-# Hesaplamayı çalıştır
+### Hesaplamayı çalıştır
 
 print_prayer_times(lat, lon, tz, tarih)
 
