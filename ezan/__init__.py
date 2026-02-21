@@ -7,7 +7,7 @@ from __future__ import annotations
 import warnings
 from typing import List, Optional, Union, Any, Dict, Tuple, Callable
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "Mehmet Keçeci"
 __license__ = "AGPL-3.0-or-later"
 __copyright__ = "Copyright 2026 Mehmet Keçeci"
