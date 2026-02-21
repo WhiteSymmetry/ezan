@@ -4,9 +4,9 @@
 
 ## Ezan:
 
-Namaz vakitleri ve kıble hesaplama modülü.
+Namaz vakitlerini (Ezan) ve Kıble hesaplama modülü.
 
-Prayer times and qibla calculation module.
+Prayer times (Adhan) and Qibla calculation module.
 
 ---
 
