@@ -1,7 +1,7 @@
 ##  `meta.yaml` (Conda paketi için)
 
 {% set name = "ezan" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
