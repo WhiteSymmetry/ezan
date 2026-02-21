@@ -1,8 +1,12 @@
-# Ezan
+# Ezan: Adhan
 
 ---
 
-Ezan - Namaz vakitleri ve kıble hesaplama modülü.
+## Ezan:
+
+Namaz vakitleri ve kıble hesaplama modülü.
+
+Prayer times and qibla calculation module.
 
 ---
 
