@@ -11,6 +11,13 @@ Prayer times (Adhan) and Qibla calculation module.
 ---
 
 ## Kullanım: Usage
+```bash
+pip install -U ezan
+
+conda install bilgi::ezan
+
+pixi add ezan
+```
 
 Kullanım Klavuzu: User Manual: 
 
@@ -71,7 +78,62 @@ They are installed automatically during setup.
 ```bash
 AGPL-3.0 license
 ```
+```
+# Pixi:
 
+[![Pixi](https://img.shields.io/badge/Pixi-Pixi-brightgreen.svg)](https://prefix.dev/channels/bilgi)
+
+pixi init ezan
+
+cd ezan
+
+pixi workspace channel add https://prefix.dev/channels/bilgi --prepend
+
+✔ Added https://prefix.dev/channels/bilgi
+
+pixi add ezan
+
+✔ Added ezan
+
+pixi install
+
+pixi shell
+
+pixi run python -c "import ezan; print(ezan.__version__)"
+
+### Çıktı:
+
+pixi remove ezan
+
+conda install -c https://prefix.dev/channels/bilgi ezan
+
+pixi run python -c "import ezan; print(ezan.__version__)"
+
+### Çıktı:
+
+pixi run pip list | grep ezan
+
+### ezan
+
+pixi run pip show ezan
+
+Name: ezan
+
+Version: 0.1.1
+
+Summary: ezan
+
+Home-page: https://github.com/WhiteSymmetry/ezan
+
+Author: Mehmet Keçeci
+
+Author-email: Mehmet Keçeci <...>
+
+License: GNU AFFERO GENERAL PUBLIC LICENSE
+
+Copyright (c) 2025-2026 Mehmet Keçeci
+
+```
 
 
 
