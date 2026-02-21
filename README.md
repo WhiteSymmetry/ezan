@@ -55,6 +55,14 @@ print_prayer_times(lat, lon, tz, tarih)
 ```
 
 ---
+### APA
+
+```
+
+Keçeci, M. (2026). Ezan. Open Science Articles (OSAs), Zenodo. 10.5281/zenodo.18722150
+
+```
+---
 
 # tz listesi:
 
