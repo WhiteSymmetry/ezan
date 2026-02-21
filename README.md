@@ -7,6 +7,10 @@ Ezan - Namaz vakitleri ve kıble hesaplama modülü.
 
 ## Kullanım: Usage
 
+Kullanım Klavuzu: User Manual: 
+
+https://github.com/WhiteSymmetry/ezan/blob/main/notebook/ezan.ipynb
+
 ---
 
 from ezan import print_prayer_times, get_user_location_and_date
