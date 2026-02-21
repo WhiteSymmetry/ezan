@@ -68,9 +68,9 @@ Kurulum sırasında otomatik olarak yüklenirler.
 They are installed automatically during setup.
 
 📄 Lisans / License
-
+```bash
 AGPL-3.0 license
-
+```
 
 
 
