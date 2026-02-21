@@ -4,6 +4,7 @@
 
 Ezan - Namaz vakitleri ve kıble hesaplama modülü.
 
+---
 
 ## Kullanım: Usage
 
@@ -16,17 +17,23 @@ https://github.com/WhiteSymmetry/ezan/blob/main/notebook/ezan.ipynb
 from ezan import print_prayer_times, get_user_location_and_date
 
 lat, lon, tz, date = get_user_location_and_date()
+
 print_prayer_times(lat, lon, tz, date)
 
 ---
 
 from ezan import print_prayer_times
+
 import datetime
 
 #### Kendi değerlerinizi girin
+
 lat = 41.0          # enlem (derece)
+
 lon = 29.0          # boylam (derece)
+
 tz = 'Europe/Istanbul'   # zaman dilimi (Europe/Istanbul, Asia/Damascus vb.)
+
 tarih = datetime.date(2026, 2, 20)   # tarih: yıl, ay, gün
 
 #### Hesaplamayı çalıştır
