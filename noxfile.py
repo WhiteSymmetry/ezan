@@ -6,7 +6,7 @@ dependencies = ["nox"]
 import nox
 
 # Nox versiyon gereksinimi
-nox.needs_version = "2025.10.14"
+nox.needs_version = "2026.2.9"
 
 # Varsayılan sanal ortam backend'i
 nox.options.default_venv_backend = "uv"
