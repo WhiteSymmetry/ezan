@@ -52,6 +52,24 @@ Africa/Abidjan Africa/Accra Africa/Addis_Ababa Africa/Algiers Africa/Asmara Afri
 
 ---
 
+⚙️ Gereksinimler / Requirements
+
+    Python ≥ 3.11
+
+    astropy
+
+    pytz
+
+    requests
+
+Kurulum sırasında otomatik olarak yüklenirler.
+    
+They are installed automatically during setup.
+
+📄 Lisans / License
+
+AGPL-3.0 license
+
 
 
 
