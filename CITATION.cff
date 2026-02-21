@@ -16,7 +16,7 @@ authors:
     orcid: 'https://orcid.org/0000-0001-9937-9839'
 identifiers:
   - type: doi
-    value: 
+    value: 10.5281/zenodo.18722150
 repository-code: 'https://github.com/WhiteSymmetry/ezan'
 url: 'https://github.com/WhiteSymmetry/ezan'
 repository: 'https://anaconda.org/bilgi/ezan'
@@ -29,5 +29,5 @@ keywords:
   - adhan
 license: AGPL3.0-or-later
 commit: 'Revision: 1'
-version: 0.1.1
+version: 0.1.2
 date-released: '2026-02-20'
