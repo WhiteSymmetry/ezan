@@ -17,15 +17,17 @@ Kullanım Klavuzu: User Manual:
 https://github.com/WhiteSymmetry/ezan/blob/main/notebook/ezan.ipynb
 
 ---
-
+```bash
 from ezan import print_prayer_times, get_user_location_and_date
 
 lat, lon, tz, date = get_user_location_and_date()
 
 print_prayer_times(lat, lon, tz, date)
 
+```
 ---
 
+```bash
 from ezan import print_prayer_times
 
 import datetime
@@ -43,6 +45,7 @@ tarih = datetime.date(2026, 2, 20)   # tarih: yıl, ay, gün
 #### Hesaplamayı çalıştır
 
 print_prayer_times(lat, lon, tz, tarih)
+```
 
 ---
 
@@ -55,11 +58,8 @@ Africa/Abidjan Africa/Accra Africa/Addis_Ababa Africa/Algiers Africa/Asmara Afri
 ⚙️ Gereksinimler / Requirements
 
     Python ≥ 3.11
-
     astropy
-
     pytz
-
     requests
 
 Kurulum sırasında otomatik olarak yüklenirler.
