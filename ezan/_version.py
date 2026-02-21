@@ -5,7 +5,7 @@ Ezan - Namaz vakitleri ve kıble hesaplama modülü.
 
 from typing import Dict, List, Tuple
 
-__version__: str = "0.2.4"
+__version__: str = "0.1.1"
 
 # License information
 __license__: str = "AGPL-3.0-or-later"
@@ -16,7 +16,7 @@ __license_url__: str = "https://www.gnu.org/licenses/agpl-3.0.html"
 __description__: str = "Ezan - Namaz vakitleri ve kıble hesaplama modülü."
 __summary__: str = "Ezan - Namaz vakitleri ve kıble hesaplama modülü."
 __keywords__: List[str] = [
-    "ezam",
+    "ezan",
     "adhan",
     "namaz",
     "salat",
