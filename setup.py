@@ -38,7 +38,7 @@ setup(
     python_requires=">=3.11",
     install_requires=[
         "astropy>=7.2.0",
-        "pytz>=2025.2",
-        "requests>=2.32.5",
+        "pytz>=2026.2",
+        "requests>=2.33.1",
     ],
 )
