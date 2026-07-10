@@ -29,6 +29,6 @@ Homepage = "https://github.com/WhiteSymmetry/ezan"
 Repository = "https://github.com/WhiteSymmetry/ezan.git"
 [dependency-groups]
 build = [
-    "setuptools (>=82.0.0,<83.0.0)",
+    "setuptools (>=82.0.0,<84.0.0)",
     "cython (>=3.2.4,<4.0.0)"
 ]
