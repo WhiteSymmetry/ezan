@@ -1,7 +1,7 @@
 ## `pyproject.toml`
 
 [build-system]
-requires = ["setuptools>=82.0", "wheel"]
+requires = ["setuptools>=84.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -10,7 +10,7 @@ version = "0.1.1"
 description = "Namaz vakitleri ve kıble hesaplama aracı"
 readme = "README.md"
 authors = [
-    {name = "Mehmet Keçeci", email = "mkececi@yaani.com"},
+    {name = "Mehmet Keçeci", email = "enfo@tuta.io"},
 ]
 license = {text = "AGPL-3.0-or-later"}
 classifiers = [
