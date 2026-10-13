@@ -7,11 +7,11 @@ from __future__ import annotations
 import warnings
 from typing import List, Optional, Union, Any, Dict, Tuple, Callable
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 __author__ = "Mehmet Keçeci"
 __license__ = "AGPL-3.0-or-later"
 __copyright__ = "Copyright 2026 Mehmet Keçeci"
-__email__ = "mkececi@yaani.com"
+__email__ = "enfo@tuta.io"
 
 from ezan.ezan import (
     get_user_location_and_date,
