@@ -9,7 +9,7 @@ Namaz vakitlerini (Ezan) ve Kıble hesaplama modülü.
 Prayer times (Adhan) and Qibla calculation module.
 
 ---
-# Ezan: Adhan <img src="https://github.com/WhiteSymmetry/ezanblob/main/docs/logo.png" alt="logo" align="right" height="140"/>
+# Ezan: Adhan <img src="https://github.com/WhiteSymmetry/ezan/blob/main/docs/logo.png" alt="logo" align="right" height="140"/>
 
 ---
 
