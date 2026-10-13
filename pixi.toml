@@ -4,11 +4,11 @@ authors = ["Mehmet Keçeci <enfo@tuta.io>"]
 channels = ["pypi", "https://prefix.dev/conda-forge", "https://conda.modular.com/max-nightly", "conda-forge", "https://repo.prefix.dev/modular-community"]
 platforms = ["linux-64"]
 name = "ezan"
-version = "0.1.0"
+version = "0.1.2"
 
 [package]
 name = "ezan"
-version = "0.1.0"
+version = "0.1.2"
 license = "AGPL-3.0-or-later"
 
 [dependencies]
@@ -20,8 +20,7 @@ wheel = ">=0.45.1"
 hatchling = ">=1.28.0"
 setuptools_scm = ">=9.2.2"
 rattler-build = ">=0.55.0"
-quetz = ">=0.10.4"
-sqlalchemy = ">=2.0.45"
+pytest = "*"
 
 [tasks]
 build = "python -m build"
