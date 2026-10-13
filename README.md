@@ -9,6 +9,47 @@ Namaz vakitlerini (Ezan) ve Kıble hesaplama modülü.
 Prayer times (Adhan) and Qibla calculation module.
 
 ---
+# Ezan: Adhan <img src="https://github.com/WhiteSymmetry/ezanblob/main/docs/logo.png" alt="logo" align="right" height="140"/>
+
+---
+
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-AGPL--3.0-green)
+![Version](https://img.shields.io/badge/version-0.1.2-orange)
+![Status](https://img.shields.io/badge/status-production--ready-brightgreen)
+
+[![PyPI version](https://badge.fury.io/py/ezan.svg)](https://badge.fury.io/py/ezan/)
+[![License: AGPL](https://img.shields.io/badge/License-AGPL-yellow.svg)](https://opensource.org/license/agpl-v3)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18722150.svg)](https://doi.org/10.5281/zenodo.18722150)
+
+
+[![Anaconda-Server Badge](https://anaconda.org/bilgi/ezan/badges/version.svg)](https://anaconda.org/bilgi/ezan)
+[![Anaconda-Server Badge](https://anaconda.org/bilgi/ezan/badges/latest_release_date.svg)](https://anaconda.org/bilgi/ezan)
+[![Anaconda-Server Badge](https://anaconda.org/bilgi/ezan/badges/platforms.svg)](https://anaconda.org/bilgi/ezan)
+[![Anaconda-Server Badge](https://anaconda.org/bilgi/ezan/badges/license.svg)](https://anaconda.org/bilgi/ezan)
+
+[![Open Source](https://img.shields.io/badge/Open%20Source-Open%20Source-brightgreen.svg)](https://opensource.org/)
+[![Documentation Status](https://app.readthedocs.org/projects/ezan/badge/?0.1.0=main)](https://ezan.readthedocs.io/en/stable/)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/11668/badge)](https://www.bestpractices.dev/projects/11668)
+[![](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/WhiteSymmetry/ezan)
+
+[![Python CI](https://github.com/WhiteSymmetry/ezan/actions/workflows/python_ci.yml/badge.svg?branch=main)](https://github.com/WhiteSymmetry/ezan/actions/workflows/python_ci.yml)
+[![codecov](https://codecov.io/gh/WhiteSymmetry/ezan/graph/badge.svg?token=DFJ046KEDT)](https://codecov.io/gh/WhiteSymmetry/ezan)
+[![Documentation Status](https://readthedocs.org/projects/ezan/badge/?version=latest)](https://ezan.readthedocs.io/en/latest/)
+[![Binder](https://terrarium.evidencepub.io/badge_logo.svg)](https://terrarium.evidencepub.io/v2/gh/WhiteSymmetry/ezan/HEAD)
+
+[![PyPI version](https://badge.fury.io/py/ezan.svg)](https://badge.fury.io/py/ezan)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+[![Linted with Ruff](https://img.shields.io/badge/Linted%20with-Ruff-green?logo=python&logoColor=white)](https://github.com/astral-sh/ruff)
+[![Lang:Python](https://img.shields.io/badge/Lang-Python-blue?style=flat-square&logo=python)](https://python.org/)
+
+[![PyPI Downloads](https://static.pepy.tech/badge/ezan)](https://pepy.tech/projects/ezan)
+![PyPI Downloads](https://img.shields.io/pypi/dm/ezan?logo=pypi&label=PyPi%20downloads)
+[![](https://data.jsdelivr.com/v1/package/gh/WhiteSymmetry/ezan/badge)](https://www.jsdelivr.com/package/gh/WhiteSymmetry/ezan)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/ezan?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/ezan)
+[![Socket Badge](https://badge.socket.dev/pypi/package/ezan/0.1.2?artifact_id=tar-gz)](https://socket.dev/pypi/package/ezan)
+
+---
 
 ## Kullanım: Usage
 ```bash
