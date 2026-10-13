@@ -25,7 +25,7 @@ setup(
     name="ezan",
     version=get_version(),
     author="Mehmet Keçeci",
-    author_email="menfo@tuta.io",
+    author_email="enfo@tuta.io",
     description="Namaz vakitleri ve kıble hesaplama aracı",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
