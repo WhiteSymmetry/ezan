@@ -2,14 +2,14 @@
 version: 1
 project:
   id: c54a8c8e-c3f5-4627-8390-67c9064549bb
-  title: kececifractals
-  description: "kececifractals"
-  keywords: [kececifractals]
+  title: ezan
+  description: "ezan"
+  keywords: [ezan]
   authors: [Mehmet Keçeci]
-  github: https://github.com/WhiteSymmetry/kececifractals
+  github: https://github.com/WhiteSymmetry/ezan
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
   options:
     favicon: docs/favicon.ico
-    logo: docs/logo.jpg
+    logo: docs/logo.png
