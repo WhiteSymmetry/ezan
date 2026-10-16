@@ -336,7 +336,8 @@ def print_prayer_times(latitude, longitude, timezone, date):
     """Tüm namaz vakitlerini ve kıble bilgilerini yazdırır."""
     print("\n" + "=" * 70)
     print(f"🌙 NAMAZ VAKİTLERİ - {date}")
-    print(f"📍 Konum: Enlem {latitude:.4f}, Boylam {longitude:.4f}")
+    #print(f"📍 Konum: Enlem {latitude:.4f}, Boylam {longitude:.4f}")
+    print(f"📍 Konum: [Yaklaşık] (Enlem {latitude:.1f}, Boylam {longitude:.1f})")
     print(f"🕒 Zaman Dilimi: {timezone}")
     print("=" * 70)
 
