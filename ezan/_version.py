@@ -5,7 +5,7 @@ Ezan - Namaz vakitleri ve kıble hesaplama modülü.
 
 from typing import Dict, List, Tuple
 
-__version__: str = "0.1.2"
+__version__: str = "0.1.3"
 
 # License information
 __license__: str = "AGPL-3.0-or-later"
