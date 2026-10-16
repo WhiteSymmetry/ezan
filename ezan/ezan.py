@@ -86,8 +86,10 @@ def get_manual_input():
 
         print(f"\n✅ Girilen değerler:")
         print(f"   Tarih: {date}")
-        print(f"   Enlem: {latitude}")
-        print(f"   Boylam: {longitude}")
+        print(f"   Enlem [Yaklaşık]: {latitude:.1f}")
+        #print(f"   Enlem: [GİZLİ]")
+        print(f"   Boylam [Yaklaşık]: {longitude:.1f}")
+        #print(f"   Boylam: [GİZLİ]")
         print(f"   Zaman Dilimi: {timezone}")
 
         return latitude, longitude, timezone, date
